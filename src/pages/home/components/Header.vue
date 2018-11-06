@@ -18,7 +18,7 @@
 @import '~@/assets/styles/varibles.styl'
 	.header
 		display: flex
-		line-height: .86rem
+		line-height: .88rem
 		background: $bgColor
 		color: #fff
 		.header-left
@@ -29,18 +29,19 @@
 				font-size: .4rem
 		.header-input
 			flex: 1
-			height: .64rem
-			line-height: .64rem
-			margin-top: .12rem
+			height: .59rem
+			line-height: .59rem
+			margin-top: .14rem
 			margin-left: .2rem
 			background: #fff
 			padding-left: .2rem
 			border-radius: .1rem
-			color: #ccc
+			color: #e4e7ea
 		.header-right
 			width 1.24rem
 			float: right
 			text-align: center
 			.arrow-icon
-				font-size: .24rem	
+				font-size: .24rem
+				margin-left .04rem	
 </style>
