@@ -101,6 +101,7 @@ export default {
       height: 0
       padding-bottom: 50%
       padding-top: 0.1rem
+      background-color: #fff
       .icon
         position: relative
         overflow: hidden 
