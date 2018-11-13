@@ -1,0 +1,191 @@
+{
+    "ret": true,
+    "data":
+    {
+        "city": "杭州",
+        "swiperList": [
+        {
+            "id": "0001",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/31/da037478f37cf202.jpg_750x200_a02cf862.jpg"
+        },
+        {
+            "id": "0002",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/c6/2467595fffc3b302.jpg_750x200_cca13d51.jpg"
+        },
+        {
+            "id": "0003",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1811/1b/4143c7e0bfe78d02.jpg_750x200_5a220f6e.jpg"
+        },
+        {
+            "id": "0004",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1810/fe/fd9c295c0e1a7602.jpg_750x200_11c8343f.jpg"
+        },
+        {
+            "id": "0005",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1712/51/36632b2cb850e902.jpg_750x200_fa4120db.jpg"
+        },
+        {
+            "id": "0006",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/12/856f100069809e02.jpg_750x200_e3485a2b.jpg"
+        },
+        {
+            "id": "0007",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/78/0a6355bcbbf89502.jpg_750x200_fc738633.jpg"
+        },
+        {
+            "id": "0008",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/69/8697f10f17f35a02.jpg_750x200_c98193a9.jpg"
+        },
+        {
+            "id": "0009",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1810/d3/51a22fafb250e502.jpg_750x200_e4d9c5ae.jpg"
+        }],
+        "iconList": [
+        {
+            "id": "0001",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+            "keywords": "景点门票"
+        },
+        {
+            "id": "0002",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+            "keywords": "一日游"
+        },
+        {
+            "id": "0003",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+            "keywords": "杭州必游"
+        },
+        {
+            "id": "0004",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+            "keywords": "动植物园"
+        },
+        {
+            "id": "0005",
+            "imgUrl": "https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+            "keywords": "打卡圣地"
+        },
+        {
+            "id": "0006",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/17/99402a22ce4af302.png",
+            "keywords": "西湖"
+        },
+        {
+            "id": "0007",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b1/528a9e80403b8c02.png",
+            "keywords": "杭州乐园"
+        },
+        {
+            "id": "0008",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b8/c5dcdb58deec2402.png",
+            "keywords": "西溪湿地"
+        },
+        {
+            "id": "0009",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/75/eca3ce656c886502.png",
+            "keywords": "千岛湖"
+        },
+        {
+            "id": "0010",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+            "keywords": "全部玩乐"
+        }],
+        "recommendList": [
+        {
+            "id": "00001",
+            "itemImgUrl": "http://img1.qunarzz.com/sight/p0/1809/6b/6b0d71ae741a583da3.img.jpg_200x200_dc19cbb1.jpg",
+            "tagImgUrl": "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
+            "tagName": "可订明日",
+            "title": "杭州乐园",
+            "price": "120",
+            "address": "萧山区",
+            "feature": "这里特别受欢迎哟(๑‾ ꇴ ‾๑)"
+        },
+        {
+            "id": "00002",
+            "itemImgUrl": "http://img1.qunarzz.com/sight/p0/1810/14/14b8a787d6e901f6a3.img.jpg_200x200_4a447e3c.jpg",
+            "tagImgUrl": "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
+            "tagName": "可订明日",
+            "title": "杭州云曼温泉",
+            "price": "127",
+            "address": "萧山区"
+        },
+        {
+            "id": "00003",
+            "itemImgUrl": "http://img1.qunarzz.com/sight/p0/1810/5e/5e855d32e9aff0aba3.img.jpg_200x200_a70a4170.jpg",
+            "tagImgUrl": "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
+            "tagName": "可订明日",
+            "title": "杭州烂苹果乐园",
+            "price": "140",
+            "address": "萧山区",
+            "feature": "全室内高科技亲子乐园"
+        },
+        {
+            "id": "00004",
+            "itemImgUrl": "http://img1.qunarzz.com/sight/p0/1508/12/4e6170303c63bdb7070fb1987480afab.water.jpg_200x200_0775a71c.jpg",
+            "tagImgUrl": "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
+            "tagName": "可订明日",
+            "title": "杭州极地海洋世界",
+            "price": "299",
+            "address": "萧山区"
+        },
+        {
+            "id": "00005",
+            "itemImgUrl": "http://img1.qunarzz.com/sight/p0/1709/28/288fbeccc335f774a3.img.jpg_200x200_4a81bde9.jpg",
+            "tagImgUrl": "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png)",
+            "tagName": "随买随用",
+            "title": "印象西湖",
+            "price": "340",
+            "address": "杭州"
+        },
+        {
+            "id": "00006",
+            "itemImgUrl": "http://img1.qunarzz.com/sight/p0/201212/18/f195032e85740a4b93835fbb.jpg_200x200_77761d11.jpg",
+            "tagImgUrl": "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
+            "tagName": "可订明日",
+            "title": "杭州海底世界",
+            "price": "115",
+            "address": "西湖区",
+            "feature": "西子湖畔畅游海底世界，了解神秘海洋生物"
+        },
+        {
+            "id": "00007",
+            "itemImgUrl": "http://img1.qunarzz.com/sight/p0/1702/86/86bc4db81a8b229da3.water.jpg_200x200_30a5026d.jpg",
+            "title": "良渚文化村白鹭泉汤池",
+            "price": "98",
+            "address": "余杭区"
+        }],
+        "weekendList": [
+        {
+            "id": "000001",
+            "imgUrl": "http://img1.qunarzz.com/sight/source/1505/4e/3e87ee62e59cdb.jpg_r_640x214_fe6cc902.jpg",
+            "itemName": "杭州必游TOP10",
+            "itemDesc": "杭州，前世今生与你有一场美丽约会"
+        },
+        {
+            "id": "000002",
+            "imgUrl": "http://img1.qunarzz.com/sight/source/1510/c1/afe3ab32b3bc23.jpg_r_640x214_beb61760.jpg",
+            "itemName": "青山秀水，精致暖汤",
+            "itemDesc": "天然高品质温泉，这个冬天秀美容颜首选"
+        },
+        {
+            "id": "000003",
+            "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9f/7d45cc38259e0.jpg_r_640x214_156f4299.jpg",
+            "itemName": "承载杭城的历史之地",
+            "itemDesc": "饱经沧桑的地方诉述着这座城的段段衷肠"
+        },
+        {
+            "id": "000004",
+            "imgUrl": "http://img1.qunarzz.com/sight/source/1505/a3/9c9d78e925e8bc.jpg_r_640x214_74656d68.jpg",
+            "itemName": "泡汤首选地",
+            "itemDesc": "泡在氤氲的温泉中，聆听秋天脚步的声音"
+        },
+        {
+            "id": "000005",
+            "imgUrl": "http://img1.qunarzz.com/sight/source/1509/8a/4cbf58944de788.jpg_r_640x214_1893da0a.jpg",
+            "itemName": "秋时景致美",
+            "itemDesc": "火红的秋天，是杭州一年中最美的季节"
+        }]
+    }
+}

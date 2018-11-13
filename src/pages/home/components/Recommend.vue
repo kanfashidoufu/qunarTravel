@@ -33,73 +33,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data() {
-    return {
-      recommendList: [{
-        id: '00001',
-        itemImgUrl: 'http://img1.qunarzz.com/sight/p0/1809/6b/6b0d71ae741a583da3.img.jpg_200x200_dc19cbb1.jpg',
-        tagImgUrl: "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
-        tagName: '可订明日',
-        title: '杭州乐园',
-        price: '120',
-        address: '萧山区',
-        feature: '这里特别受欢迎哟(๑‾ ꇴ ‾๑)'
-      },
-      {
-        id: '00002',
-        itemImgUrl: 'http://img1.qunarzz.com/sight/p0/1810/14/14b8a787d6e901f6a3.img.jpg_200x200_4a447e3c.jpg',
-        tagImgUrl: "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
-        tagName: '可订明日',
-        title: '杭州云曼温泉',
-        price: '127',
-        address: '萧山区'
-      },
-      {
-        id: '00003',
-        itemImgUrl: 'http://img1.qunarzz.com/sight/p0/1810/5e/5e855d32e9aff0aba3.img.jpg_200x200_a70a4170.jpg',
-        tagImgUrl: "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
-        tagName: '可订明日',
-        title: '杭州烂苹果乐园',
-        price: '140',
-        address: '萧山区',
-        feature: '全室内高科技亲子乐园'
-      },
-      {
-        id: '00004',
-        itemImgUrl: 'http://img1.qunarzz.com/sight/p0/1508/12/4e6170303c63bdb7070fb1987480afab.water.jpg_200x200_0775a71c.jpg',
-        tagImgUrl: "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
-        tagName: '可订明日',
-        title: '杭州极地海洋世界',
-        price: '299',
-        address: '萧山区'
-      },
-      {
-        id: '00005',
-        itemImgUrl: 'http://img1.qunarzz.com/sight/p0/1709/28/288fbeccc335f774a3.img.jpg_200x200_4a81bde9.jpg',
-        tagImgUrl: "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/20/2ba6d10b17972e02.png)",
-        tagName: '随买随用',
-        title: '印象西湖',
-        price: '340',
-        address: '杭州'
-      },
-      {
-        id: '00006',
-        itemImgUrl: 'http://img1.qunarzz.com/sight/p0/201212/18/f195032e85740a4b93835fbb.jpg_200x200_77761d11.jpg',
-        tagImgUrl: "background-image:url(https://img1.qunarzz.com/piao/fusion/1802/52/b9080e45b69b4f02.png)",
-        tagName: '可订明日',
-        title: '杭州海底世界',
-        price: '115',
-        address: '西湖区',
-        feature: '西子湖畔畅游海底世界，了解神秘海洋生物'
-      },
-      {
-        id: '00007',
-        itemImgUrl: 'http://img1.qunarzz.com/sight/p0/1702/86/86bc4db81a8b229da3.water.jpg_200x200_30a5026d.jpg',
-        title: '良渚文化村白鹭泉汤池',
-        price: '98',
-        address: '余杭区'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
