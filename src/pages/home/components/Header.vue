@@ -10,12 +10,13 @@
 </template>
 
 <script>
-	export default {
-		name: "HomeHeader",
-		props: {
-			city: String
-		}
+import { mapState } from 'vuex'
+export default {
+	name: "HomeHeader",
+	computed: {
+		...mapState(['city'])
 	}
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -42,7 +43,8 @@
 			border-radius: .1rem
 			color: #e4e7ea
 		.header-right
-			width 1.24rem
+			min-width 1.04rem
+			padding: 0 .1rem
 			float: right
 			text-align: center
 			.colorfix
