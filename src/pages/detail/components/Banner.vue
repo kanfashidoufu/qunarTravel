@@ -11,10 +11,6 @@
       </div>
     </div>
     <common-gallary :imgs="imgs" v-show="showGallary" @close="handleGallaryClose"></common-gallary>
-    <router-link class="mp-header-back iconfont" to="/" v-show="showBackIcon">
-      <span class="mp-headerback-bg"></span>
-      <span class="mp-headerback-icon">&#xe624;</span>
-    </router-link>
   </div>
 </template>
 
@@ -25,8 +21,7 @@ export default {
   data () {
     return {
       imgs: ['http://img1.qunarzz.com/sight/p0/1809/6b/6b0d71ae741a583da3.img.jpg_r_800x800_b072777b.jpg', 'http://img1.qunarzz.com/sight/p0/1811/37/37c94ff139726420a3.water.jpg_r_800x800_2e5275a4.jpg'],
-      showGallary: false,
-      showBackIcon: true
+      showGallary: false
     }
   },
   methods: {
@@ -92,32 +87,4 @@ export default {
       font-size: .1rem
     .mp-imgswipeicon-number
       margin-left: .1rem
-.mp-header-back
-  left: .1rem;
-  top: .1rem;
-  width: .72rem;
-  height: .72rem;
-  line-height: .72rem;
-  position: absolute;
-  font-size: .36rem;
-  color: #fff;
-  text-align: center;
-  .mp-headerback-bg
-    display: block;
-    width: .72rem;
-    height: .72rem;
-    background-color: #000;
-    opacity: .5;
-    -webkit-border-radius: .36rem;
-    -moz-border-radius: .36rem;
-    border-radius: .36rem;
-  .mp-headerback-icon
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: block;
-    width: .72rem;
-    line-height: .72rem;
-    text-align: left;
-    text-indent: .18rem;
 </style>
