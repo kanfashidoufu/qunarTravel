@@ -3,7 +3,7 @@
     <img class="item-title-img" src="http://img1.qunarzz.com/piao/fusion/1711/89/ebc329f16c55bb02.png" alt="猜你喜欢">
     <span class="item-title">猜你喜欢</span>
     <ul class="recommend-list">
-      <router-link tag="li" class="item" v-for="item of recommendList" :key="item.id" :to="'/detail/' + item.id">
+      <router-link tag="li" class="item" v-for="item of recommendList" :key="item.id" :to="'/detail/' + item.id + '&' + item.title">
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.itemImgUrl" :alt="item.title">
         </div>

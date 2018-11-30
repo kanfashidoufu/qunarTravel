@@ -7,7 +7,7 @@
       <router-link to="/">
         <div class="iconfont header-fixed-back">&#xe624;</div>
       </router-link>
-      杭州乐园
+      {{this.$route.params.title}}
     </div>
   </div>
 </template>
