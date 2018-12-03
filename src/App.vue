@@ -6,5 +6,7 @@
   </div>
 </template>
 
-<style>
+<style lang="stylus">
+#app
+  background: #f5f5f5
 </style>

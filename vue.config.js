@@ -1,5 +1,6 @@
 const index = require('./data/index.json');
 const city = require('./data/city.json');
+const detail = require('./data/detail.json');
 module.exports = {
     baseUrl:'/',//根路径
     outputDir:'dist',//打包的时候生成的一个文件名
@@ -15,6 +16,10 @@ module.exports = {
             app.get('/api/city',(req,res) =>{
  
                 res.json(city)
+            });
+            app.get('/api/detail',(req,res) =>{
+ 
+                res.json(detail)
             });
         }
         
