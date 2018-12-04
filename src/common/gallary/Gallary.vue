@@ -1,7 +1,7 @@
 <template>
 	<div class="container" @click="handleGallaryClick">
     <div class="wrapper">
-      <swiper :options="swiperOptions">
+      <swiper :options="swiperOptions" ref="gallarySwiper">
             <!-- slides -->
             <swiper-slide v-for="(item, index) of imgs" :key="index">
                 <img class="gallary-img" :src="item">
@@ -34,9 +34,15 @@ export default {
       }
     }
   },
+  computed: {
+    swiper () {
+      return this.$refs.gallarySwiper.swiper
+    }
+  },
   methods: {
     handleGallaryClick () {
       this.$emit('close')
+      this.swiper.slideTo(0);
     }
   }
 }
@@ -64,6 +70,6 @@ export default {
         width: 100%
       .swiper-pagination
         color: #fff
-        bottom: -3.5rem
+        bottom: -2.5rem
         
 </style>
