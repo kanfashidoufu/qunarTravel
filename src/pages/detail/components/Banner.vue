@@ -97,7 +97,6 @@ export default {
     .mp-imgswipeicon-icon
       position: relative
       top: .02rem
-      font-size: .1rem
     .mp-imgswipeicon-number
       margin-left: .1rem
 </style>
