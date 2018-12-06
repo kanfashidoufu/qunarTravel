@@ -12,15 +12,15 @@
 
 ### 首页
 首页仿照目前去哪儿网的页面布局及样式完美还原
-![index](index.gif)
+![index](assets/index.gif)
 
 ### 城市选择页
 城市选择页实现了字母表的滚动效果，城市搜索
-![city](city.gif)
+![city](assets/city.gif)
 
 ### 详情页
 详情页实现了景点详情渲染、图片画廊公用组件和图片渐入的动画
-![detail](detail.gif)
+![detail](assets/detail.gif)
 
 ## 项目安装
 ```
