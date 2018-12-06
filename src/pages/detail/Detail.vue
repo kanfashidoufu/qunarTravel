@@ -35,7 +35,7 @@ export default {
 	},
 	methods: {
 		getDetailInfo () {
-			axios.get('/api/detail', {
+			axios.get('https://www.easy-mock.com/mock/5c08c719539281325f2a1cae/travel/api/detail', {
 				params: {
 					id: this.$route.params.id
 				}

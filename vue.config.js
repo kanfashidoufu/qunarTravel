@@ -9,15 +9,15 @@ module.exports = {
     devServer:{
         before(app){//配置本地的json,json文件和src同级
             //http://localhost:8080/api/index
-            app.get('/api/index',(req,res) =>{
+            app.get('https://www.easy-mock.com/mock/5c08c719539281325f2a1cae/travel/api/index',(req,res) =>{
  
                 res.json(index)
             });
-            app.get('/api/city',(req,res) =>{
+            app.get('https://www.easy-mock.com/mock/5c08c719539281325f2a1cae/travel/api/city',(req,res) =>{
  
                 res.json(city)
             });
-            app.get('/api/detail',(req,res) =>{
+            app.get('https://www.easy-mock.com/mock/5c08c719539281325f2a1cae/travel/api/detail',(req,res) =>{
  
                 res.json(detail)
             });

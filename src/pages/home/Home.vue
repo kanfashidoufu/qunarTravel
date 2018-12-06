@@ -42,7 +42,7 @@ export default {
   },
   methods:{
     getHomeInfo() {
-      axios.get('/api/index?city=' + this.city)
+      axios.get('https://www.easy-mock.com/mock/5c08c719539281325f2a1cae/travel/api/index?city=' + this.city)
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {
