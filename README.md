@@ -1,7 +1,7 @@
 <!--
  * @Date: 2020-09-17 15:39:24
  * @LastEditors: 看法是豆腐
- * @LastEditTime: 2020-09-17 15:50:34
+ * @LastEditTime: 2020-09-27 16:32:41
  * @Description: 
 -->
 # 仿去哪儿网Vue实现
@@ -12,7 +12,8 @@
 * stylus
 * Vue-Router
 * Vuex
-* Easy-Mock
+* ~~Easy-Mock~~
+* Rap2接口服务
 
 ## 项目实现效果展示
 
