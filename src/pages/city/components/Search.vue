@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-09-27 16:24:36
+ * @Description: 
+-->
 <template>
   <div>
     <div class="search">
@@ -62,7 +68,9 @@ export default {
     ...mapMutations(['changeCity'])
   },
   mounted() {
-    this.scroll = new Bscroll(this.$refs.search)
+    this.scroll = new Bscroll(this.$refs.search, {
+      click: true
+    })
   }
 }
 </script>

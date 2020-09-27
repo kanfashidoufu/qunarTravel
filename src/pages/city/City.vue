@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-09-27 16:09:34
+ * @Description: 
+-->
 <template>
   <div>
     <city-header></city-header>
@@ -30,7 +36,7 @@ export default {
   },
   methods: {
     getCityInfo() {
-      axios.get('https://www.easy-mock.com/mock/5c08c719539281325f2a1cae/travel/api/city')
+      axios.get('http://rap2api.taobao.org/app/mock/120239/api/city')
         .then(this.handleGetCityInfoSucc)
     },
     handleGetCityInfoSucc(res) {

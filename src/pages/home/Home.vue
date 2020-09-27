@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-09-27 16:05:16
+ * @Description: 
+-->
 <template>
 	<div class="homePage">
 		<home-header></home-header>
@@ -42,7 +48,7 @@ export default {
   },
   methods:{
     getHomeInfo() {
-      axios.get('https://www.easy-mock.com/mock/5c08c719539281325f2a1cae/travel/api/index?city=' + this.city)
+      axios.get('http://rap2api.taobao.org/app/mock/120239/api/index?city=' + this.city)
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {

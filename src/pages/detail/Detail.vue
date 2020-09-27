@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-09-27 16:07:43
+ * @Description: 
+-->
 <template>
 	<div>
 		<detail-banner :sightName="sightName" :bannerImg="bannerImg" :gallaryImgs="gallaryImgs"></detail-banner>
@@ -35,7 +41,7 @@ export default {
 	},
 	methods: {
 		getDetailInfo () {
-			axios.get('https://www.easy-mock.com/mock/5c08c719539281325f2a1cae/travel/api/detail', {
+			axios.get('http://rap2api.taobao.org/app/mock/120239/api/detail', {
 				params: {
 					id: this.$route.params.id
 				}
