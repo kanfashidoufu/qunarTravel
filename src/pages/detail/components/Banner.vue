@@ -1,13 +1,19 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-09-27 16:52:07
+ * @Description: 
+-->
 <template>
   <div>
     <div class="banner" @click="handleBannerClick">
       <img class="banner-img" :src="bannerImg">
       <div class="mp-headfeagure-info">
-        <div class="mp-headfeagure-title">{{this.sightName}}</div>
+        <div class="mp-headfeagure-title">{{sightName}}</div>
       </div>
       <div class="mp-imgswipeicon">
         <span class="iconfont mp-imgswipeicon-icon">&#xe626;</span>
-        <em class="mp-imgswipeicon-number">{{this.gallaryNum}}</em>
+        <em class="mp-imgswipeicon-number">{{gallaryNum}}</em>
       </div>
     </div>
     <fade-animation>

@@ -1,10 +1,10 @@
 /*
  * @Date: 2020-09-17 15:39:19
  * @LastEditors: 看法是豆腐
- * @LastEditTime: 2020-09-17 16:27:19
+ * @LastEditTime: 2020-09-27 16:55:54
  * @Description: 应用入口文件
  */
-import Vue from 'vue'
+import Vue, { createApp } from 'vue';
 import App from './App.vue'
 import router from './router'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
@@ -16,11 +16,5 @@ import	'styles/iconfont.css'
 // require styles
 import 'swiper/dist/css/swiper.css'
 
-Vue.config.productionTip = false
-Vue.use(VueAwesomeSwiper)
 
-new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+createApp(App).use(router).use(store).use(VueAwesomeSwiper).mount('#app')

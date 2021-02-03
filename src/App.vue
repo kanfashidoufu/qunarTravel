@@ -1,14 +1,16 @@
 <!--
  * @Date: 2020-09-17 15:39:19
  * @LastEditors: 看法是豆腐
- * @LastEditTime: 2020-09-17 17:03:02
+ * @LastEditTime: 2020-10-12 16:49:17
  * @Description: 应用入口根组件
 -->
 <template>
   <div id="app">
-    <keep-alive>
-      <router-view/>
-    </keep-alive>
+    <router-view v-slot="{ Component }">
+      <keep-alive>
+        <component :is="Component" />
+      </keep-alive>
+    </router-view>
   </div>
 </template>
 

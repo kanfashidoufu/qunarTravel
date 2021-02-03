@@ -1,17 +1,19 @@
 /*
  * @Date: 2020-09-17 15:39:19
  * @LastEditors: 看法是豆腐
- * @LastEditTime: 2020-09-27 16:19:53
+ * @LastEditTime: 2020-10-12 17:28:54
  * @Description: 路由入口文件
  */
 /* eslint-disable */
 import Vue from 'vue'
-import Router from 'vue-router'
+import Router, { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '@/pages/home/Home.vue'
 
-Vue.use(Router)
+// Vue.use(Router)
 
-export default new Router({
+export default createRouter({
+  history: createWebHashHistory(),
+
   routes: [
     {
       path: '/',
@@ -27,7 +29,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "City" */ '@/pages/city/City.vue')
     },
     {
-      path: '/detail/:id&:title',
+      path: '/detail',
       name: 'Detail',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
@@ -35,7 +37,8 @@ export default new Router({
       component: () => import(/* webpackChunkName: "Detail" */ '@/pages/detail/Detail.vue')
     }
   ],
+
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
   }
-})
+});

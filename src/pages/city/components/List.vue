@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-09-27 17:02:08
+ * @Description: 
+-->
 <template>
   <div class="list" ref="wrapper">
     <div>
@@ -6,7 +12,7 @@
         <div class="button-list">
           <div class="button-wrapper">
             <div class="button">
-              {{this.currentCity}}
+              {{currentCity}}
             </div>
           </div>
         </div>
@@ -61,7 +67,7 @@ export default {
   watch: {
     letter() {
       if (this.letter) {
-        const element = this.$refs[this.letter][0]
+        const element = this.$refs[this.letter]
         this.scroll.scrollToElement(element)
       }
     }

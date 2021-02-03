@@ -1,26 +1,44 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-10-12 17:28:37
+ * @Description: 
+-->
 <template>
-	<div class="recommend-title">
-    <img class="item-title-img" src="http://img1.qunarzz.com/piao/fusion/1711/89/ebc329f16c55bb02.png" alt="猜你喜欢">
+  <div class="recommend-title">
+    <img
+      class="item-title-img"
+      src="http://img1.qunarzz.com/piao/fusion/1711/89/ebc329f16c55bb02.png"
+      alt="猜你喜欢"
+    />
     <span class="item-title">猜你喜欢</span>
     <ul class="recommend-list">
-      <router-link tag="li" class="item" v-for="item of recommendList" :key="item.id" :to="'/detail/' + item.id + '&' + item.title">
+      <router-link
+        tag="li"
+        class="item"
+        v-for="item of recommendList"
+        :key="item.id"
+        :to="'/detail'"
+      >
         <div class="item-img-wrapper">
-          <img class="item-img" :src="item.itemImgUrl" :alt="item.title">
+          <img class="item-img" :src="item.itemImgUrl" :alt="item.title" />
         </div>
-        <div v-if="item.tagName" class="item-like-tag" :style="item.tagImgUrl">可订明日</div>
+        <div v-if="item.tagName" class="item-like-tag" :style="item.tagImgUrl">
+          可订明日
+        </div>
         <div class="item-like-info">
-          <div class="item-like-title">{{item.title}}</div>
+          <div class="item-like-title">{{ item.title }}</div>
           <div class="item-like-price">
             <span class="price-tag">
               ¥
-              <em class="price-number">{{item.price}}</em>
+              <em class="price-number">{{ item.price }}</em>
               起
             </span>
-            <span class="item-like-address">{{item.address}}</span>
+            <span class="item-like-address">{{ item.address }}</span>
           </div>
           <div class="item-like-feature" v-if="item.feature">
             <div class="mp-ellipsis2">
-              {{item.feature}}
+              {{ item.feature }}
             </div>
           </div>
         </div>
@@ -34,8 +52,8 @@
 export default {
   name: 'HomeRecommend',
   props: {
-    recommendList: Array
-  }
+    recommendList: Array,
+  },
 }
 </script>
 
@@ -72,6 +90,7 @@ export default {
         position: relative
         overflow: hidden
         padding: .2rem 0
+        display: block
         .item-img-wrapper
           background: none !important
           float: left

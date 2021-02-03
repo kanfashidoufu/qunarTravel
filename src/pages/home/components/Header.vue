@@ -1,21 +1,37 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2021-02-03 17:43:33
+ * @Description: 
+-->
 <template>
-	<div class="header">
-		<div class="header-left">
-			<div class="iconfont back-icon">&#xe624;</div>
-		</div>
-		<div class="header-input"><span class="iconfont">&#xe632;</span> 输入城市/景点/游玩主题</div>
-    
-    <div class="header-right"><router-link to="/city" class="colorfix">{{this.city}}<span class="iconfont arrow-icon">&#xe601;</span></router-link></div>    
-	</div>
+  <div class="header">
+    <div class="header-left">
+      <div class="iconfont back-icon">&#xe624;</div>
+    </div>
+    <div class="header-input">
+      <span class="iconfont">&#xe632;</span> 输入城市/景点/游玩主题
+    </div>
+
+    <div class="header-right">
+      <router-link to="/city" class="colorfix"
+        >{{ city
+        }}<span class="iconfont arrow-icon">&#xe601;</span></router-link
+      >
+    </div>
+  </div>
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { computed } from 'vue'
+import { useStore } from 'vuex'
 export default {
-	name: "HomeHeader",
-	computed: {
-		...mapState(['city'])
-	}
+  name: 'HomeHeader',
+  setup() {
+	  const store = useStore()
+	  const city = computed(() => store.state.city)
+	  return { city }
+  },
 }
 </script>
 

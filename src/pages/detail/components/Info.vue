@@ -1,16 +1,22 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-09-27 16:51:14
+ * @Description: 
+-->
 <template>
   <div>
     <div class="detailInfo">
       <div class="detailInfo-card">
         <div class="detailInfo-card-rating">
           <div>
-            <span class="detailInfo-card-rating-score">{{this.baseInfo.score}}</span>
+            <span class="detailInfo-card-rating-score">{{baseInfo.score}}</span>
             <span class="detailInfo-card-rating-text">分</span>
-            <span class="detailInfo-card-rating-desc">{{this.baseInfo.desc}}</span>
+            <span class="detailInfo-card-rating-desc">{{baseInfo.desc}}</span>
           </div>
           <div>
-            <span class="detailInfo-card-rating-totalcommentnum">{{this.baseInfo.totalcommentnum}}</span>
-            <span class="detailInfo-card-rating-totalcommentnum">{{this.baseInfo.totalstrategynum}}</span>
+            <span class="detailInfo-card-rating-totalcommentnum">{{baseInfo.totalcommentnum}}</span>
+            <span class="detailInfo-card-rating-totalcommentnum">{{baseInfo.totalstrategynum}}</span>
             <span class="iconfont rightarrow">&#xe62d;</span>
           </div>
         </div>
@@ -27,7 +33,7 @@
       <div class="detailInfo-address border-top">
         <p class="detailInfo-address-txt">
           <span class="iconfont detailInfo-address-icon">&#xe63f;</span>
-          {{this.baseInfo.address}}
+          {{baseInfo.address}}
           <span class="iconfont detailInfo-address-arrow">&#xe62d;</span>
         </p>
       </div>

@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2020-09-17 15:15:26
+ * @LastEditors: 看法是豆腐
+ * @LastEditTime: 2020-09-27 17:02:49
+ * @Description: 
+-->
 <template>
   <ul class="list">
     <li 
@@ -38,7 +44,7 @@ export default {
     }
   },
   updated () {
-    this.startY = this.$refs['A'][0].offsetTop
+    this.startY = this.$refs['A'].offsetTop
   },
   methods: {
     handleLetterClick: function(e) {
